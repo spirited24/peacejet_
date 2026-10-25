@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#241333" />
+  <rect x="3" y="3" width="58" height="58" rx="11" stroke="#C6A04A" stroke-width="1.5" stroke-dasharray="3 2" />
+  <!-- Corner architectural brackets -->
+  <path d="M3 14V3H14" stroke="#E0BF72" stroke-width="2" />
+  <path d="M50 3H61V14" stroke="#E0BF72" stroke-width="2" />
+  <path d="M61 50V61H50" stroke="#E0BF72" stroke-width="2" />
+  <path d="M14 61H3V50" stroke="#E0BF72" stroke-width="2" />
+  <!-- P Stem and Loop -->
+  <path d="M22 17V47" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" />
+  <path d="M22 19H35C41 19 45 23 45 28.5C45 34 41 38 35 38H22" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- J Architectural Sweep -->
+  <path d="M38 27V41C38 45.5 34.5 48.5 29.5 48.5C25.5 48.5 23 46.5 22 44" stroke="#C6A04A" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="38" cy="27" r="2.5" fill="#E0BF72" />
+</svg>
