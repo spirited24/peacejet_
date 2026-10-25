@@ -68,7 +68,7 @@ export const companyConfig: CompanyConfig = {
     operatingHours: "Monday – Friday: 8:00 AM – 6:00 PM (WAT) | Saturday: By Appointment",
   },
   socialLinks: {
-    instagram: "https://instagram.com/peacejetconstruction",
+    instagram: "https://www.instagram.com/p.e.a.c.ejetinteriors01_?cplk=cjJpZnNxZ2xsMXE1",
     linkedin: "https://linkedin.com/company/peacejet-construction",
   },
   brand: {
