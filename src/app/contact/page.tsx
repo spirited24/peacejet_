@@ -16,6 +16,7 @@ import {
   CheckCircle2,
   AlertCircle,
   Building,
+  Instagram,
 } from "lucide-react";
 
 export default function ContactPage() {
@@ -200,6 +201,27 @@ export default function ContactPage() {
                       <span>{companyConfig.contact.operatingHours}</span>
                     </div>
                   </div>
+
+                  {companyConfig.socialLinks.instagram && (
+                    <div className="flex items-start gap-3.5">
+                      <div className="w-9 h-9 bg-[#54228A]/10 text-[#54228A] flex items-center justify-center flex-shrink-0">
+                        <Instagram className="w-4 h-4" />
+                      </div>
+                      <div>
+                        <strong className="block text-[#241333] font-semibold">
+                          Instagram:
+                        </strong>
+                        <a
+                          href={companyConfig.socialLinks.instagram}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-[#54228A] transition-colors break-all font-medium text-[#54228A]"
+                        >
+                          @p.e.a.c.ejetinteriors01_
+                        </a>
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 <div className="mt-8 pt-6 border-t border-[#241333]/10 space-y-3">
